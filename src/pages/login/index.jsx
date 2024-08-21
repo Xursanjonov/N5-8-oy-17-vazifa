@@ -25,7 +25,7 @@ const Login = () => {
     console.log(data)
 
     return (
-        <section className='max-w-[1240px] w-full min-h-[700px] mx-auto translate-y-[20vh]'>
+        <section className='max-w-[1240px] w-full min-h-[700px] mx-auto flex items-center justify-center'>
             <form onSubmit={handleSubmit} className="w-[700px] h-[400px] mx-auto p-5 rounded-lg translate-y-[40%] border-2 grid gap-3">
                 <h2 className='text-3xl mb-3 text-black text-center font-bold'>Login</h2>
                 <label htmlFor="username" className='w-full grid gap-2'>
